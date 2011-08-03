@@ -1,0 +1,40 @@
+This file contains message digests of all files listed in MANIFEST,
+signed via the Module::Signature module, version 0.66.
+
+To verify the content in this distribution, first make sure you have
+Module::Signature installed, then type:
+
+    % cpansign -v
+
+It will check each file's integrity, as well as the signature's
+validity.  If "==> Signature verified OK! <==" is not displayed,
+the distribution may already have been compromised, and you should
+not run its Makefile.PL or Build.PL.
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+SHA1 1826fc8121ffccbfdccfd59be4f0aa6d04ae16e0 Build.PL
+SHA1 10603a9aea54d4d3c2e1872890b3ba50f26d2ad0 Changes
+SHA1 ef592f0f5420540f106eb36754b50e6c4de87519 MANIFEST
+SHA1 7d20e4e840781030202bb045d5ab81b3fd1b68b0 MANIFEST.SKIP
+SHA1 35fecddbb89a3fe71f2c9127c1da32931ab6e15b META.yml
+SHA1 83dd8778001f1f657548e185fbdbb466962eb463 Makefile.PL
+SHA1 a254370150dd04781e192dd53d1312cf09ba5b19 README
+SHA1 4ef35bd9102b148c1a857632704d10d34e3b7ea5 lib/Filter/DisposableEmail.pm
+SHA1 68f5892aafefa7c495ab88e8523f167827700310 t/00-load.t
+SHA1 2f847100a69b499434d536ef5d98c1dc7cde67ca t/01-new.t
+SHA1 807d664ad5b14fed69b56d24f425c7ce8091cf3c t/02-isDisposable.t
+SHA1 2b8ffb7e4f399af95d092743846ac8d438f2c53e t/manifest.t
+SHA1 0765c9ff0cc4319f415bb08d0053b7717a8284a2 t/pod.t
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v2.0.14 (MingW32)
+
+iQEcBAEBAgAGBQJOOT+xAAoJEPYcXBXhRYOhyHAH/0E/Qo6OtIjC5q9ZvFmX6BbC
++vMtZF3mT+aGZdxRoml0hySwclpzrpt8we4d4c7a8txKXICtXF/Rg/2Kbjulttq7
+bHgbpNGH26rNljKMiQehB/Ne8GUb/I2tHg89m+N+NDlBOjk5ea8JQ1Bi41wNzwxy
+Zx0m6LncZM6nqxoz0P8UIRbEkojeqNChy5yuyobOo3yVuKOW4daNnDOg/oGCfrkT
+dM6peFeQaUh8I3IL5xkbKbfvvngwbfTDtOtV/BnVNClkecu4xEd3mWzuYhsecS3D
+uv7sClaNfKixCKYeZ6w68N+t0kK3lQtIdbUPYqa0O4TjF3AECkAVed6fsAF9yXg=
+=HPK6
+-----END PGP SIGNATURE-----
