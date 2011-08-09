@@ -1,4 +1,8 @@
 Revision history for Filter-DisposableEmail
 
+0.02    Tue Aug 09 15:47:11 2011
+        - Made Readonly v1.03 as minimum requirement.
+        - Prepared the distribution using the Module::Signature v0.68.
+
 0.01    Wed Aug 03 12:13:14 2011
         - First version released.

@@ -19,11 +19,11 @@ Filter::DisposableEmail - Interface to the DEAfilter RESTful API.
 
 =head1 VERSION
 
-Version 0.01
+Version 0.02
 
 =cut
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 Readonly my $BASE_URL => 'http://www.deafilter.com/classes/DeaFilter.php';
 
 =head1 DESCRIPTION
@@ -91,7 +91,7 @@ sub isDisposable
                 'email' => { isa => 'Email' },
                 MX_PARAMS_VALIDATE_NO_CACHE => 1);
 
-    my ($browser, $request, $response, $content);
+    my ($browser, $response, $content);
     $browser = $self->browser;
     $browser->env_proxy;
     $response = $browser->request(POST $BASE_URL, [mail => $param{email}, key => $self->key]);

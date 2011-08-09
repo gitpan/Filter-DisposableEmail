@@ -10,13 +10,13 @@ WriteMakefile(
     clean         => { FILES => 'Filter-DisposableEmail-*' },
     PREREQ_PM     => {
         'Test::More' => 0,
-        'Readonly'   => 0,
+        'Readonly'   => '1.03',
         'Mouse'      => '0.93',
         'JSON'       => '2.15',
         'Data::Validate::Email'    => '0.04',
         'HTTP::Request::Common'    => '1.26',
         'LWP::UserAgent'           => '2.33',
-        'MouseX::Params::Validate' => '0.01',
+        'MouseX::Params::Validate' => '0.02',
     },
     ($ExtUtils::MakeMaker::VERSION >= 6.3002
       ? ('LICENSE'=> 'perl')

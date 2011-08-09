@@ -1,5 +1,5 @@
 This file contains message digests of all files listed in MANIFEST,
-signed via the Module::Signature module, version 0.66.
+signed via the Module::Signature module, version 0.68.
 
 To verify the content in this distribution, first make sure you have
 Module::Signature installed, then type:
@@ -14,14 +14,14 @@ not run its Makefile.PL or Build.PL.
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA1
 
-SHA1 1826fc8121ffccbfdccfd59be4f0aa6d04ae16e0 Build.PL
-SHA1 10603a9aea54d4d3c2e1872890b3ba50f26d2ad0 Changes
+SHA1 af68c2c43f766de118e8cd58b42f4f48438fddb8 Build.PL
+SHA1 92b0d47420724365cb54d0ec869c3217e2cb481e Changes
 SHA1 ef592f0f5420540f106eb36754b50e6c4de87519 MANIFEST
 SHA1 7d20e4e840781030202bb045d5ab81b3fd1b68b0 MANIFEST.SKIP
-SHA1 35fecddbb89a3fe71f2c9127c1da32931ab6e15b META.yml
-SHA1 83dd8778001f1f657548e185fbdbb466962eb463 Makefile.PL
+SHA1 9f052f1124f961a68f4872a828c4a3710bcf2f9e META.yml
+SHA1 12c2ad764da34f82991a55f1c2207bb6ab06a6d1 Makefile.PL
 SHA1 a254370150dd04781e192dd53d1312cf09ba5b19 README
-SHA1 4ef35bd9102b148c1a857632704d10d34e3b7ea5 lib/Filter/DisposableEmail.pm
+SHA1 20a2e125c7d9ef9ded0327ba5cd5ed443c68ef51 lib/Filter/DisposableEmail.pm
 SHA1 68f5892aafefa7c495ab88e8523f167827700310 t/00-load.t
 SHA1 2f847100a69b499434d536ef5d98c1dc7cde67ca t/01-new.t
 SHA1 807d664ad5b14fed69b56d24f425c7ce8091cf3c t/02-isDisposable.t
@@ -30,11 +30,11 @@ SHA1 0765c9ff0cc4319f415bb08d0053b7717a8284a2 t/pod.t
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v2.0.14 (MingW32)
 
-iQEcBAEBAgAGBQJOOT+xAAoJEPYcXBXhRYOhyHAH/0E/Qo6OtIjC5q9ZvFmX6BbC
-+vMtZF3mT+aGZdxRoml0hySwclpzrpt8we4d4c7a8txKXICtXF/Rg/2Kbjulttq7
-bHgbpNGH26rNljKMiQehB/Ne8GUb/I2tHg89m+N+NDlBOjk5ea8JQ1Bi41wNzwxy
-Zx0m6LncZM6nqxoz0P8UIRbEkojeqNChy5yuyobOo3yVuKOW4daNnDOg/oGCfrkT
-dM6peFeQaUh8I3IL5xkbKbfvvngwbfTDtOtV/BnVNClkecu4xEd3mWzuYhsecS3D
-uv7sClaNfKixCKYeZ6w68N+t0kK3lQtIdbUPYqa0O4TjF3AECkAVed6fsAF9yXg=
-=HPK6
+iQEcBAEBAgAGBQJOQUktAAoJEPYcXBXhRYOhrqwH/2wCQCEw3lb4fJgwPCxQDh1Q
+uCDyUNO2evJQ8/KAnkTkfBZERUG47SJzzZ7kJTOgQCsJ/pJU8QUYH7VfqU8H8fIu
+V0u9+yP/191VXGENWJaYuxUN92tOX0v8MqaDrgrWE/c2Mp9A6otUb6B+XOYpesrI
+ot0O0Bc8n0wQ0oYJwQ+fFL7ZNOEpHJv2LK6bc5jOAfam8QnURPR9hiJzA4tqbQSU
+vRPmO7sVHq2cjpTqTzXsKkUU5XNcD/rjqcVLCoNNnE4U5ggeH5wPWT+rAMgraEZh
+i6bUnNguU0j9dfLDz+MMKkmKmczRVLN+d0e/XrsO62boGXATDaZ7pg1uErmfgXQ=
+=Hydt
 -----END PGP SIGNATURE-----
